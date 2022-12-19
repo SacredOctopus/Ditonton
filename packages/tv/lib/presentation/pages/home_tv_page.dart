@@ -49,7 +49,7 @@ class HomeTvPageState extends State<HomeTvPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _buildSubHeading(
-                title: 'Popular',
+                title: 'Now Playing',
                 onTap: () => Navigator.pushNamed(context, nowplayingTvRoute),
               ),
               BlocBuilder<TvBloc, TvState>(
